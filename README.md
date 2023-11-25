@@ -28,7 +28,7 @@
 
 7. 获取NotionDatabaseID
     * 打开Notion数据库，点击右上角的Share，然后点击Copy link
-    * 获取链接后比如 https://www.notion.so/malinkang/</u>1b78f0fd0d03484caa00154285ffec0c<u>?v=7ed7e3fbe69043a28d2847e76f075d99&pvs=4 中间的1b78f0fd0d03484caa00154285ffec0c就是DatabaseID
+    * 获取链接后比如 https://www.notion.so/malinkang/1b78f0fd0d03484caa00154285ffec0c?v=7ed7e3fbe69043a28d2847e76f075d99&pvs=4 中间的1b78f0fd0d03484caa00154285ffec0c就是DatabaseID
 
 8. 在Github的Secrets中添加以下变量
     * 打开你fork的工程，点击Settings->Secrets and variables->New repository secret
@@ -44,7 +44,7 @@
 
 1. 如果发现数据没有同步，请点击Action查看运行状态。红色表示失败，绿色代表成功，如果有失败的点击去查看详情，检查值是否填写正确
 2. Categories is expected to be select. 这个是模板设置的问题，将模板中的Categories修改为Multi-select类型
-3. 模板中的属性解释
+3. 模板中的属性解释(database中的属性不可更改，否则会同步失败！）
     * BookName：书名
     * BookId：书Id
     * Sort：主要用于增量同步没啥实际意义
