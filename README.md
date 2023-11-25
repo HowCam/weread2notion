@@ -38,7 +38,7 @@
         * NOTION_DATABASE_ID
 
 9.在notion中添加connections
-![](./asset/888.jpg)
+![](./asset/888.png)
 
 ## 问题解答
 
