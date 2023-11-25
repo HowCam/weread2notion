@@ -28,7 +28,7 @@
 
 7. 获取NotionDatabaseID
     * 打开Notion数据库，点击右上角的Share，然后点击Copy link
-    * 获取链接后比如 https://www.notion.so/malinkang/1b78f0fd0d03484caa00154285ffec0c?v=7ed7e3fbe69043a28d2847e76f075d99&pvs=4 中间的1b78f0fd0d03484caa00154285ffec0c就是DatabaseID
+    * 获取链接后比如 https://www.notion.so/malinkang/</u>1b78f0fd0d03484caa00154285ffec0c<u>?v=7ed7e3fbe69043a28d2847e76f075d99&pvs=4 中间的1b78f0fd0d03484caa00154285ffec0c就是DatabaseID
 
 8. 在Github的Secrets中添加以下变量
     * 打开你fork的工程，点击Settings->Secrets and variables->New repository secret
@@ -57,10 +57,3 @@
     * URL：网页链接
     * Categories：分类
     * Progress：阅读进度
-
-
-## 微信群
-
- ![image](./asset/10.jpg)
-
-
