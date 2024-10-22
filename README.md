@@ -18,7 +18,7 @@
     * 微信扫码登录确认
     * 按F12进入开发者模式，依次点 Network -> Doc -> Headers-> cookie。复制 Cookie 字符串;
 4. 获取NotionToken
-    * 浏览器打开https://www.notion.so/my-integrations
+    * 浏览器打开[https://www.notion.so/my-integrations](https://www.notion.so/profile/integrations/)
     * 点击New integration 输入name提交
     * 然后copy
 
